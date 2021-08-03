@@ -1,0 +1,52 @@
+.sb2-2{
+	margin-left: 22%;
+	width: 78%;
+}
+.sb2-1{
+	width: 22%;
+}
+.sb2-12  div{
+	width: 200px;
+	margin: auto;
+}
+h1,h2,h3,h4,h5{
+	color: black;
+}
+.sb2-12, .sb2-13{
+	border-top: 5px solid #4CAF50;
+	margin-top: 10px;
+	text-align: center;
+	background-color: #ffffff;
+	padding-bottom: 6%;
+}
+.sb2-1{
+	background-color: #E3E8EA;
+}
+.list-group-item{
+	border-right: none;
+	border-left: none;
+}
+.sb2-13 .row{
+	margin-right: 0;
+}
+.set_field{
+	margin: auto; width: 76%; border-top: 1px solid #ddd;
+}
+.set_field h5{
+	padding: 5px 0;
+}
+.button{
+	padding: 5px 15px !important;
+	border-radius: 5px;
+}
+.group{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.inn-title h4{
+	display: inline-block;
+	margin-right: 20px;
+}
+.inn-title {
+    padding: 10px;
+}

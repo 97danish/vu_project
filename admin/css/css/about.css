@@ -1,0 +1,69 @@
+#mjs-background-prev, #mjs-background-next
+{
+	padding: 0px 10px 0px 10px;
+}
+#mjs-background-prev:hover, #mjs-background-next:hover
+{
+	background: transparent;
+	background-color: rgba(0,0,0,0.2);
+	padding: 0px 10px 0px 10px;
+}
+#mjs-background-next
+{
+	background-image: url(/58469/images/next_arrow_big.png);background-position: 50% 50%;background-repeat: no-repeat;min-width: 79px;
+}
+#mjs-background-next:hover
+{
+	background-image: url(/58469/images/next_arrow_big.png);background-position: 50% 50%;background-repeat: no-repeat;min-width: 79px;
+}
+#mjs-background-prev
+{
+	background-image: url(/58469/images/prev_arrow_big.png);background-position: 50% 50%;background-repeat: no-repeat;min-width: 79px;
+}
+#mjs-background-prev:hover
+{
+	background-image: url(/58469/images/prev_arrow_big.png);background-position: 50% 50%;background-repeat: no-repeat;min-width: 79px;
+}
+#colorbox.system
+{
+
+}
+#colorbox.system #cboxPrevious, #colorbox.system #cboxNext
+{
+	padding: 0px 10px 0px 10px;
+}
+#colorbox.system #cboxPrevious:hover, #colorbox.system #cboxNext:hover
+{
+	padding: 0px 10px 0px 10px;
+}
+#colorbox.system #cboxNext
+{
+	background-image: url(/58469/images/next_arrow_big.png);background-position: 50% 50%;background-repeat: no-repeat;min-width: 79px;
+}
+#colorbox.system #cboxNext:hover
+{
+	background-image: url(/58469/images/next_arrow_big.png);background-position: 50% 50%;background-repeat: no-repeat;min-width: 79px;
+}
+#colorbox.system #cboxPrevious
+{
+	background-image: url(/58469/images/prev_arrow_big.png);background-position: 50% 50%;background-repeat: no-repeat;min-width: 79px;
+}
+#colorbox.system #cboxPrevious:hover
+{
+	background-image: url(/58469/images/prev_arrow_big.png);background-position: 50% 50%;background-repeat: no-repeat;min-width: 79px;
+}
+#cboxOverlay
+{
+	background-color: #1B1B1B;
+}
+#mjs-browser
+{
+	min-width: 1210px;
+	background: transparent;
+	background-color: rgb(255,255,255);
+}
+#mjs-main
+{
+	width: 1210px;
+	min-height:2843px;
+}

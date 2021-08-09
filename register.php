@@ -142,8 +142,13 @@
             $phone_number = $_POST['phone_number'];
             $qualification = $_POST['qualification'];
             $specialist = $_POST['specialist'];
-            $address = $_POST['location'];
+            $location = $_POST['location'];
             $experience = $_POST['experience'];
+            $availability = $_POST['availability'];
+            $fee = $_POST['fee'];
+            $hospital = $_POST['hospital'];
+            $ser_hours = $_POST['ser_hours'];
+            $introduction = $_POST['introduction'];
             $image = 'default.png';
             $validate_query = "SELECT * from doctor where doc_email='$email'";
             $result = mysqli_query($con, $validate_query);
@@ -151,7 +156,7 @@
 
 
             if($count==0){
-                $insert = "INSERT into doctor(doc_firstname, doc_lastname, doc_email, doc_password, doc_contact, doc_address, doc_gender, doc_specialist, doc_qualification, doc_clinic, doc_city, doc_country, doc_experience, doc_image) values('$fname', '$lname', '$email', '$password', '$phone_number', '$address', '$gender', '$specialist', '$qualification', '$clinic', '$city', '$country', '$experience', '$image')";
+                $insert = "INSERT into doctor(doc_firstname, doc_lastname, doc_email, doc_password, doc_contact, location, doc_specialist, doc_qualification, doc_experience, doc_hospital, doc_fee, doc_ser_hours, doc_introduction, doc_availability, doc_image) values('$fname', '$lname', '$email', '$password', '$phone_number', '$location', '$specialist', '$qualification', '$experience', '$hospital', '$fee', '$ser_hours', '$introduction', '$availability, $image')";
 
                 mysqli_query($con, $insert);
                 $message = "Successfully Registered!";

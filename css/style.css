@@ -3299,3 +3299,73 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+/*Login Register Pages*/
+
+.clearfix{
+  margin-bottom: 10px;
+}
+.main{
+  width: 50%;
+  margin: auto;
+  background: #0794B6;
+  border-radius: 50px;
+  padding: 40px;
+}
+.main.register{
+  width: 70%;
+}
+.heading{
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.form-group label{
+  color: #fff;
+}
+.button{
+  background-color: #00428c !important;
+  width: 100%;
+  margin-top: 20px;
+}
+#success, #failure{
+  margin-top: 20px;
+  text-align: center;
+  display: none;
+}
+#success{
+  color: green;
+}
+#failure{
+  color: red;
+}
+#nameErr, #usernameErr{
+  color: #fff;
+  display: none;
+}
+.user_table{
+  margin-top: 50px;
+}
+.filter_buttons{
+  float: right;
+  margin-bottom: 10px;
+}
+.links, .further_box{
+  text-align: center;
+  margin-top: 30px;
+}
+.further_box a{
+  color: #00428c;
+  font-size: 18px;
+}
+
+.web_title{
+  font-size: 26px;
+  color: #00428c;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}

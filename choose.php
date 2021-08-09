@@ -55,7 +55,7 @@
  			
 <div class="container-fluid"><br><br>
 			<div class="" style="width: 25%; margin: auto;">
-                <a href="index.php"><img src="img/logo.png" style="width: 80%;"></a>
+                <a href="index.php"><img src="img/logo-1.png" style="display: block; width: 40%; margin: auto;"></a>
             </div>
 	<div class="m">
 	<div class="row">
